@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnóstico - Formulario Alumno</title>
+    <link rel="stylesheet" href="Cuestonario.css">
+</head>
+<body>
+
+  <div class="card">
+    <form>
+      <!-- Campo Nombre -->
+      <div class="form-group">
+        <label class="label-blue" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="input-blue" placeholder="Ingrese su nombre">
+      </div>
+
+      <!-- Campo Correo -->
+      <div class="form-group">
+        <label class="label-blue" for="correo">Correo:</label>
+        <input type="email" id="correo" class="input-blue" placeholder="Ingrese su correo">
+      </div>
+
+      <!-- Campo Contraseña -->
+      <div class="form-group">
+        <label class="label-red" for="password">Contraseña:</label>
+        <input type="password" id="password" class="input-red" placeholder="Ingrese su contraseña">
+      </div>
+
+      <!-- Campo Repetir Contraseña -->
+      <div class="form-group">
+        <label class="label-red" for="repeat-password">Repetir Contraseña:</label>
+        <input type="password" id="repeat-password" class="input-red" placeholder="Re ingrese su contraseña">
+      </div>
+
+      <!-- Selección de Género -->
+      <div class="gender-group">
+        <label class="gender-option selected">
+          <input type="radio" name="genero" value="hombre" checked> Hombre
+        </label>
+        <label class="gender-option">
+          <input type="radio" name="genero" value="mujer"> Mujer
+        </label>
+      </div>
+
+      <!-- Acepto Términos -->
+      <div class="terms-group">
+        <button type="button" class="terms-btn">Acepto los Términos y Condiciones</button>
+      </div>
+
+      <!-- Botón Enviar -->
+      <button type="submit" class="btn-submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>

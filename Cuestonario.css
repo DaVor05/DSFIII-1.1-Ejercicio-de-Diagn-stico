@@ -1,0 +1,113 @@
+* {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 400px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    /* Estilos para etiquetas y bordes superiores (Nombre y Correo) */
+    .label-blue {
+      color: #999999;
+    }
+
+    .input-blue {
+      border: none;
+      border-bottom: 1.5px solid #a2c4e2;
+      padding: 5px 0;
+      font-size: 14px;
+      outline: none;
+      color: #2b3a67;
+    }
+
+    /* Estilos para etiquetas y bordes inferiores (Contraseñas) */
+    .label-red {
+      color: #d9534f;
+    }
+
+    .input-red {
+      border: none;
+      border-bottom: 1.5px solid #d9534f;
+      padding: 5px 0;
+      font-size: 14px;
+      outline: none;
+    }
+
+    /* Sección de Radio Buttons (Hombre / Mujer) */
+    .gender-group {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .gender-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: #333333;
+    }
+
+    .gender-option.selected {
+      background-color: #d0e7f9;
+      padding: 6px 12px;
+      border-radius: 2px;
+    }
+
+    /* Checkbox / Botón de Términos */
+    .terms-group {
+      margin-bottom: 25px;
+    }
+
+    .terms-btn {
+      background-color: #23419b;
+      color: #ffffff;
+      border: none;
+      padding: 8px 14px;
+      font-size: 12px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    /* Botón de Enviar */
+    .btn-submit {
+      width: 100%;
+      background-color: #203f9a;
+      color: #ffffff;
+      border: none;
+      padding: 12px;
+      font-size: 14px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    .btn-submit:hover {
+      background-color: #173078;
+    }
